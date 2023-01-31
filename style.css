@@ -14,3 +14,46 @@ body {
 .section {
 	flex: 1;
 }
+
+.header,
+.overview,
+.footer {
+	background-color: #1f2937;
+}
+
+.header,
+.section,
+.footer {
+	padding: 0px 80px;
+}
+
+.links {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 80px;
+	align-items: center;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: bold;
+	color: #f9faf8;
+}
+
+.links {
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+	padding: 0px;
+	font-weight: lighter;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
