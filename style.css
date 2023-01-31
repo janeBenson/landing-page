@@ -1,15 +1,9 @@
 body {
-	display: flex;
-	flex-direction: column;
-	/* height: 100vh; */
 	margin: 0;
 }
 
 .body {
-	flex-grow: 1;
-	display: flex;
-	flex-direction: column;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .header,
@@ -70,6 +64,7 @@ a {
 	display: flex;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	align-items: stretch;
 }
 
 .overview > * {
@@ -182,10 +177,10 @@ button {
 	justify-content: space-around;
 	align-items: center;
 	gap: 50px;
-	height: 200px;
 	background-color: #3882f6;
-	border-radius: 16%; /* Why does the edge get cut off? */
+	border-radius: 10px;
 	color: white;
+	padding: 30px 100px;
 }
 .action-title {
 	font-weight: bold;
@@ -195,3 +190,10 @@ button {
 }
 
 /* Footer section  */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+	color: white;
+}
