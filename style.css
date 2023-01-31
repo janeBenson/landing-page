@@ -64,6 +64,8 @@ a {
 	text-decoration: none;
 }
 
+/* Overview section */
+
 .overview {
 	display: flex;
 	padding-top: 100px;
@@ -96,6 +98,37 @@ button {
 	margin-top: 25px;
 }
 
+/* Info section */
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 45px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.info-title {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+}
+
+.info-tiles {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.tile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 180px;
+}
+
 .img {
 	display: flex;
 	justify-content: center;
@@ -104,3 +137,39 @@ button {
 	background-color: gray;
 	color: white;
 }
+
+.tile-img {
+	height: 150px;
+	width: 150px;
+	border: 4px solid #3882f6;
+	border-radius: 12%;
+}
+
+.tile-text {
+	color: rgb(128, 128, 128);
+	text-align: center;
+}
+
+/* Quote section  */
+.quote {
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+	background-color: #e5e7eb;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.quote-content {
+	font-size: 36px;
+	font-weight: 100;
+	font-style: italic;
+	color: #1f2937;
+}
+.quote-author {
+	padding-top: 25px;
+	font-weight: bold;
+	text-align: right;
+}
+
+/* Call to action section  */
