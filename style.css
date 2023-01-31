@@ -15,7 +15,7 @@ body {
 .header,
 .section,
 .footer {
-	padding: 0px 215px;
+	padding: 0px 250px;
 }
 
 .section {
@@ -173,3 +173,25 @@ button {
 }
 
 /* Call to action section  */
+.action {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.action-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 50px;
+	height: 200px;
+	background-color: #3882f6;
+	border-radius: 16%; /* Why does the edge get cut off? */
+	color: white;
+}
+.action-title {
+	font-weight: bold;
+}
+.action button {
+	border: 2px solid white;
+}
+
+/* Footer section  */
